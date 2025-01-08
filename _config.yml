@@ -1,0 +1,34 @@
+title: NingXie (谢宁)
+email: xiening0612@gmail.com
+description: >- 
+  Research Scientist at University of Pennsylvania, focusing on genetic mechanisms underlying human caridovascular diseases.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://ningxie2022.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research/
+  - title: Publications
+    url: /publications/
+  # - title: People
+  #   url: /people/
+  - title: News
+    url: /news/
+
+# Social links
+social_links:
+  google_scholar: DnRd5VYAAAAJ
+  github: ningxie2022
+  
+# Other settings
+show_excerpts: true 
+permalink: /:categories/:year/:month/:day/:title/   
